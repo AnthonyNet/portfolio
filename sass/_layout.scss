@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-blue-light);
+    background-image: linear-gradient(to right bottom, var(--color-blue-light, 0.1), var(--color-blue-dark,));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    
+}
+
+.container{
+    /*Odsazeni*/
+    max-width: 124rem;
+    margin: 8rem auto;
+    
+    background-color: var(--color-grey-light-1);
+    box-shadow: var(--box-shadow-dark);
+}
+
+.header{
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-light)-2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+   height: 100%;
+   margin-left: 1rem;
+}
+
+.content{
+    display: flex;
+    height: 95vh;
+    flex-direction: row-reverse;
+}
+
+.sidebar{
+background-color: var(--color-grey-dark-1);
+
+flex: 0 0 9%;
+}
+
+.obsah{
+background-color: $color-tertiary-light;
+flex: 1;
+}
