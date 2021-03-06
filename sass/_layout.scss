@@ -46,6 +46,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
 }
 
 .header img{
@@ -55,17 +57,20 @@ body {
 
 .content{
     display: flex;
-    height: 95vh;
-    flex-direction: row-reverse;
+   // height: 95vh;
+    
 }
 
-.sidebar{
-background-color: var(--color-grey-dark-1);
+.section-1{
+    background-color: var(--color-grey-light-2);
+        
 
-flex: 0 0 9%;
+
 }
 
-.obsah{
-background-color: $color-tertiary-light;
-flex: 1;
+
+.section-2{
+    background-color: red;
+    height: 150px;
+
 }
