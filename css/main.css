@@ -94,7 +94,7 @@ section {
 }
 
 .section-3 {
-  max-width: 100rem;
+  width: 80%;
   margin: 0 auto;
   padding: 0 2rem 2rem;
   margin-bottom: 10vh;
@@ -413,19 +413,65 @@ SECTION 4
           transform: scale(1.01);
 }
 
+/*.gallery-flex {
+	display: flex;
+	flex-wrap: wrap;
+	
+	margin: -1rem -1rem;
+}
+
+.gallery-flex-item {
+	
+	flex: 1 0 24rem;
+	
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-flex-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-flex-image:hover {
+	transform: scale(1.15);
+}
+
+@supports (display: grid) {
+	.gallery-flex {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery-flex,
+	.gallery-flex-item {
+		margin: 0;
+	}
+}
+
+*/
 .gallery-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -1rem -1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .gallery-flex-item {
+  margin: 1rem;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 24rem;
-          flex: 1 0 24rem;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  background-color: chartreuse;
   margin: 1rem;
   -webkit-box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
           box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
@@ -434,8 +480,8 @@ SECTION 4
 
 .gallery-flex-image {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transition: -webkit-transform 400ms ease-out;
@@ -447,20 +493,6 @@ SECTION 4
 .gallery-flex-image:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
-}
-
-@supports (display: grid) {
-  .gallery-flex {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(24rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    grid-gap: 2rem;
-  }
-  .gallery-flex,
-  .gallery-flex-item {
-    margin: 0;
-  }
 }
 
 /*

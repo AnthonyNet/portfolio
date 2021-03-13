@@ -1,4 +1,4 @@
-.gallery-flex {
+/*.gallery-flex {
 	display: flex;
 	flex-wrap: wrap;
 	
@@ -37,4 +37,37 @@
 	.gallery-flex-item {
 		margin: 0;
 	}
+}
+
+*/
+
+.gallery-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+
+}
+
+.gallery-flex-item {
+	margin: 1rem;
+	flex: 1 0 25%;
+	background-color: chartreuse;
+
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+
+}
+
+.gallery-flex-image {
+	display: block;
+	width: 101%;
+	height: 101%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-flex-image:hover {
+	transform: scale(1.15);
 }
