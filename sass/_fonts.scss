@@ -8,3 +8,38 @@ body{
 
     
 }
+
+.h1-center,
+.p-center{
+    margin: 2rem;
+    text-align: center;
+}
+
+blockquote::before {
+    content: open-quote;
+  }
+  
+  blockquote::after {
+    content: close-quote;
+  }
+  
+  blockquote::before, blockquote::after {
+    opacity: 0.25;
+    padding: 0 10px;
+    font-size: 3em;
+  }
+  
+  blockquote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #f5f7f2;
+
+    
+  }
+
+ 

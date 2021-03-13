@@ -25,7 +25,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    min-height: 100vh;
+    min-height: 470vh;
     
 }
 
@@ -33,6 +33,7 @@ body {
     /*Odsazeni*/
     max-width: 124rem;
     margin: 8rem auto;
+    
     
     background-color: var(--color-grey-light-1);
     box-shadow: var(--box-shadow-dark);
@@ -44,7 +45,7 @@ body {
     border-bottom: var(--color-grey-light)-2;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     
@@ -61,6 +62,10 @@ body {
     
 }
 
+section{
+    min-height: 95vh;
+}
+
 .section-1{
     background-color: var(--color-grey-light-2);
         
@@ -68,9 +73,51 @@ body {
 
 }
 
-
 .section-2{
-    background-color: red;
-    height: 150px;
-
+    margin: 0 auto;
+    
+    
+    padding: 5rem;
+    max-width: 150vh;
+    
+    background-color: aliceblue;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 1px 5px 15px 1px #050505;
 }
+
+
+.section-3{
+    
+    max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+    margin-bottom: 10vh;
+   
+}
+/*
+SECTION 4
+*/
+
+
+.section-4 {
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 80%;
+    height: 80%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+  font-size: 5rem;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+  

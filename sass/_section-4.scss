@@ -1,0 +1,108 @@
+/*
+Basic layout in __layout.scss
+*/
+
+.section-4 > div:first-child {
+	flex: 1 0 100%;
+  }
+
+.section-4__aside,
+.section-4__main{
+  
+  //background-color: red;
+  margin: 0.5rem;
+}
+
+.section-4{
+	&__aside{
+		flex: 1;
+	
+		&__img-leftBig,
+		&__img-rightSmall{
+			width: 100%;
+			height: 100%;
+		}
+
+
+	}
+
+
+	&__main {
+		flex:2;
+
+		&__text-cover{
+			padding: 1rem;
+			font-size: 40%;
+			text-align: left;
+		}
+
+		&__text-cover-right{
+			padding: 1rem;
+			font-size: 30%;
+			text-align: left;
+		}
+	}
+
+
+    
+}
+
+.left,
+.right{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-content: stretch;
+
+  
+}
+.left{
+	margin-right: 1rem;
+}
+.big {
+	flex: 2;
+}
+.small {
+	flex: 1;
+}
+.container-section-4-big,
+.container-section-4-small
+ {
+	
+	display: block;
+	overflow: hidden;
+	border: 2px solid black;
+	margin-bottom: 1rem;
+	flex: 1;
+  display: flex;
+  
+ // flew-wrap: wrap;
+  justify-content: space-around;
+  margin: 0.5rem;
+  background-color: rgb(228, 227, 227);
+}
+
+.container-section-4-big{
+	max-height: 25vh;
+}
+.container-section-4-small{
+	max-height: 15vh;
+}
+
+.clicked{
+	height: 0;
+	width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

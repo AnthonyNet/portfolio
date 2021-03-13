@@ -1,83 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <div class="container">
-            <header class="header">
-                <img src="img/logo.png" alt="logo-top" class="logo">
 
-                <h1 class="h1">AZ</h1>
-                <h1 class="h1">Portfolio</h1>
-            
-                <div class="content">
-                    <div class="navigation">
-                        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-            
-                        <label for="navi-toggle" class="navigation__button">
-                            <span class="navigation__icon">&nbsp;</span>
-                        </label>
-            
-                        <div class="navigation__background">&nbsp;</div>
-            
-                        <nav class="navigation__nav">
-                            <ul class="navigation__list">
-                                <li class="navigation__item"><a href="#" class="navigation__link">About Natous</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Your benfits</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>
-                                </ul>
-                        </nav>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+        <header class="header">
+            <img src="img/logo.png" alt="logo-top" class="logo">
+
+            <h1 class="h1">AZ</h1>
+            <h1 class="h1">Portfolio</h1>
+
+            <div class="content">
+                <div class="navigation">
+                    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+                    <label for="navi-toggle" class="navigation__button">
+                        <span class="navigation__icon">&nbsp;</span>
+                    </label>
+
+                    <div class="navigation__background">&nbsp;</div>
+
+                    <nav class="navigation__nav">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a href="#section-1" class="navigation__link">Sekce 1</a></li>
+                            <li class="navigation__item"><a href="#section-2" class="navigation__link">Sekce 2</a></li>
+                            <li class="navigation__item"><a href="#section-3" class="navigation__link">Sekce 3</a></li>
+                            <li class="navigation__item"><a href="#section-4" class="navigation__link">Sekce 4</a></li>
+                            <li class="navigation__item"><a href="#section-5" class="navigation__link">Sekce 5</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
 
-                 </div>
-               
-                
-            </header>
+            </div>
+
+
+        </header>
+   
+
+    <!------------------------------------
+    
+SECTION-1
+
+-->
+
+    <section class="section-1" id="section-1">
+        <h1 class="h1-center">1.Galerka Grid</h1>
+
+
+        <div class="gallery">
+
+            <figure class="gallery__item gallery__item--1"><img src="img/gal/1.jpg" alt="Gallery image 1"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--2"><img src="img/gal/2.jpg" alt="Gallery image 2"
+                    class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--3"><img src="img/gal/3.jpg" alt="Gallery image 3"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--4"><img src="img/gal/4.jpg" alt="Gallery image 4"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--5"><img src="img/gal/5.jpg" alt="Gallery image 5"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--6"><img src="img/gal/6.jpg" alt="Gallery image 6"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--7"><img src="img/gal/7.jpg" alt="Gallery image 7"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--8"><img src="img/gal/8.jpg" alt="Gallery image 8"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--9"><img src="img/gal/9.jpg" alt="Gallery image 9"
+                    class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--10"><img src="img/gal/10.jpg" alt="Gallery image 10"
+                    class="gallery__img"></figure>
+
+
+        </div>
+
+    </section>
+
+
+    <!------------------------------------
+    
+SECTION-2
+
+-->
+
+    <section class="section-2" id="section-2">
+        <h1 class="h1-center">Sekce 2 Grid</h1>
+        <div class="row">
+            <div class="col span-2-of-3 box">
+                <h1>Nadpis</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Perferendis voluptatum laboriosam,
+                    officiis iste alias nisi explicabo maxime adipisci autem
+                    vitae unde, natus dolores dolor temporibus repellendus
+                    tempora iusto in doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores
+                    voluptate magni dolorem officiis vero eos, nostrum dolorum sint ipsum blanditi
+                    exercitationem inventore harum! Odit dolores illo deserunt
+                    aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat eos dolore
+                    asperiores, quis odit a optio alias obcaecati maxime, libero voluptatibus earum voluptate hic unde
+                    consectetur magni necessitatibus quaerat!
+                    Asperiores, dolores laboriosam assumenda veritatis quasi error, sapiente culpa consequatur officiis
+                    aliquam nostrum cumque voluptate ea enim mollitia ipsum dolore, pariatur id repudiandae vitae
+                    reiciendis ducimus. </p>
+            </div>
+            <div class="col span-1-of-3 box">
+                <blockquote>
+
+                    <p>Perferendis voluptatum laboriosam,
+                        officiis iste alias nisi explicabo maxime adipisci autem.</p>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col span-3-of-3 box">
+
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Perferendis voluptatum laboriosam,
+                    officiis iste alias nisi explicabo maxime adipisci autem
+                    vitae unde, natus dolores dolor temporibus repellendus
+                    tempora iusto in doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                    reprehenderit mollitia nobis velit, maxime minus, totam corporis incidunt sapiente dolore ipsum,
+                    tempora magni corrupti maiores hic eos placeat eius consequuntur.
+                    Magni eum similique saepe nemo sit, dolorum exercitationem. Nihil perspiciatis pariatur provident
+                    quasi fugit sit voluptates omnis, necessitatibus delectus, corrupti quia fugiat nostrum libero.
+                    Architecto neque itaque qui ducimus minima!
+                    Maxime, officia quasi! Ab debitis natus nisi repudiandae quaerat corporis ipsam deserunt quae
+                    deleniti ea molestiae, ad perferendis autem nulla sed numquam aut eveniet magnam voluptates ipsa
+                    provident aliquam ut.
+                    Vero ab ratione tempore consequuntur laborum, corrupti molestias illo placeat soluta quia cum ex aut
+                    quisquam ipsum fugiat excepturi dignissimos omnis deleniti ut. Tempora praesentium unde architecto
+                    doloremque exercitationem rerum?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo adipisci odio maxime perspiciatis
+                    laboriosam pariatur id exercitationem impedit et sapiente quidem reprehenderit, aperiam voluptas
+                    iure repellendus reiciendis debitis vero. Nostrum?
+                    Hic tempora nihil, commodi molestias possimus ipsa atque laudantium fugit rem corporis sit illo,
+                    quas error impedit quo ipsum. Temporibus fuga ea exercitationem dolore? Obcaecati veritatis expedita
+                    laudantium fugiat minima.
+                    Ea, est ad! Amet corporis quisquam iste facere exercitationem! Eveniet ipsam voluptate nulla quas
+                    quod autem rem deleniti porro, iste itaque odit ducimus eaque atque quos dolorum quidem asperiores
+                    rerum.
+                </p>
+            </div>
+
         </div>
 
 
-        <section class="section-1">
-            <h1 class="h1-center">1.Galerka</h1>
-            
-                
-                <div class="gallery">
-                    
-                    <figure class="gallery__item gallery__item--1"><img src="img/gal/1.jpg" alt="Gallery image 1" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--2"><img src="img/gal/2.jpg" alt="Gallery image 2" class="gallery__img"></figure>
-                    
-                    <figure class="gallery__item gallery__item--3"><img src="img/gal/3.jpg" alt="Gallery image 3" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--4"><img src="img/gal/4.jpg" alt="Gallery image 4" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--5"><img src="img/gal/5.jpg" alt="Gallery image 5" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--6"><img src="img/gal/6.jpg" alt="Gallery image 6" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--7"><img src="img/gal/7.jpg" alt="Gallery image 7" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--8"><img src="img/gal/8.jpg" alt="Gallery image 8" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--9"><img src="img/gal/9.jpg" alt="Gallery image 9" class="gallery__img"></figure>
-                    <figure class="gallery__item gallery__item--10"><img src="img/gal/10.jpg" alt="Gallery image 10" class="gallery__img"></figure>
-                    
-                    
+        <div class="row">
+            <div class="col span-1-of-3 box">
+                <figure class="gallery__item gallery__item--8"><img src="img/gal/8.jpg" alt="Gallery image 8"
+                    class="gallery__img"></figure>
+            </div>
+            <div class="col span-2-of-3 box">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ea doloremque nemo. Provident
+                    excepturi porro earum perferendis maiores! Delectus dolorum nesciunt ratione dignissimos nostrum
+                    aperiam numquam maxime alias, odio corporis?
+                    Numquam dolor architecto ullam alias consequuntur culpa fugit maiores hic tenetur reprehenderit
+                    nostrum quaerat dolorem libero amet laudantium tempora fugiat quia, natus atque doloremque? Debitis
+                    tempore minima vero distinctio hic! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aperiam, tempore iusto. Animi laborum placeat soluta nisi reprehenderit hic ut? Voluptatum unde
+                    dolor amet reprehenderit ab error sed vel, recusandae consequatur!
+                    Incidunt debitis assumenda doloribus eius, dolorum ipsum magni voluptatum pariatur veniam tempora
+                    quia at eos ea quibusdam eaque voluptatem rerum numquam et labore eum. Culpa impedit aspernatur
+                    voluptatem perspiciatis dolorum! Delectus dolorum nesciunt ratione dignissimos nostrum
+                    aperiam numquam maxime alias, odio corporis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ea doloremque nemo. Provident
+                    excepturi porro earum perferendis maiores! Delectus dolorum nesciunt ratione dignissimos nostrum
+                    aperiam numquam maxime alias, odio corporis?</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col span-3-of-3 box">
+
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Perferendis voluptatum laboriosam,
+                        officiis iste alias nisi explicabo maxime adipisci autem
+                        vitae unde, natus dolores dolor temporibus repellendus
+                        tempora iusto in doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                        reprehenderit mollitia nobis velit, maxime minus, totam corporis incidunt sapiente dolore ipsum,
+                        tempora magni corrupti maiores hic eos placeat eius consequuntur.
+                        Magni eum similique saepe nemo sit, dolorum exercitationem. Nihil perspiciatis pariatur
+                        provident quasi fugit sit voluptates omnis, necessitatibus delectus, corrupti quia fugiat
+                        nostrum libero. Architecto neque itaque qui ducimus minima!
+                        Maxime, officia quasi! Ab debitis natus nisi repudiandae quaerat corporis ipsam deserunt quae
+                        deleniti ea molestiae, ad perferendis autem nulla sed numquam aut eveniet magnam voluptates ipsa
+                        provident aliquam ut.
+                        Vero ab ratione tempore consequuntur laborum, corrupti molestias illo placeat soluta quia cum ex
+                        aut quisquam ipsum fugiat excepturi dignissimos omnis deleniti ut. Tempora praesentium unde
+                        architecto doloremque exercitationem rerum?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo adipisci odio maxime perspiciatis
+                        laboriosam pariatur id exercitationem impedit et sapiente quidem reprehenderit, aperiam voluptas
+                        iure repellendus reiciendis debitis vero. Nostrum?
+                        Hic tempora nihil, commodi molestias possimus ipsa atque laudantium fugit rem corporis sit illo,
+                        quas error impedit quo ipsum. Temporibus fuga ea exercitationem dolore? Obcaecati veritatis
+                        expedita laudantium fugiat minima.
+                        Ea, est ad! Amet corporis quisquam iste facere exercitationem! Eveniet ipsam voluptate nulla
+                        quas quod autem rem deleniti porro, iste itaque odit ducimus eaque atque quos dolorum quidem
+                        asperiores rerum.
+                    </p>
                 </div>
-                
-            
-            </section>
 
-            <section class="section-2">
+            </div>
 
-            </section>
+    </section>
+
+<!------------------------------------
+
+SECTION-3
+
+-->
+
+
+
+    <section class="section-3" id="section-3">
+        <h1 class="h1-center">
+           Sekce 3 - Galerie Flex </h1>
+        <p class="p-center">Ukázka flexbox galerie</p>
+
+        <div class="gallery-flex">
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image"
+                    src="https://i1.sndcdn.com/artworks-qwz4Vbkxdpbgb5m2-rVCIBw-t500x500.jpg" alt="pict-1">
+            </div>
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image" src="https://farm5.staticflickr.com/4466/36906009863_625ce02e9f.jpg"
+                    alt="pict-2">
+            </div>
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image"
+                    src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
+                    alt="pict-3">
+            </div>
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image"
+                    src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
+                    alt="pict-4">
+            </div>
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image"
+                    src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
+                    alt="pict-5">
+            </div>
+
+            <div class="gallery-flex-item">
+                <img class="gallery-flex-image"
+                    src="https://getsocial.nz/wp-content/uploads/2014/12/Evolution_by_will_yen-500x500.png"
+                    alt="pict-6">
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+<!------------------------------------
+    
+SECTION-4
+
+-->
+
+
+
+    
+
+    <section class="section-4" id="section-4">
         
+        <div class="section-4-name-container">
+            <h1>Zprávy</h1>
+        </div>
         
+        <div class="left big">
+            <div class="container-section-4-big">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-leftBig" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover">
+                    <h2 class="h2-section-4">1. Lidská posádka na Marsu</h2>
+                    <p class="p-section-4">Poprvé v historii lidstva přistála lidská posádka na dosud neosídlené planetě Mars. Úspešnou misi doprovázely obavy spojené s problematickým chováním obou hlavních motorů. Zkušená posádka si ale s problémy dokázala poradit.
+                        <a href="#" class="section-4-link">...více zde</a>
+                    </p>
+                    </div>
+                </main>
+            </div>
+
+
+            <div class="container-section-4-big">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-leftBig" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover">
+                    <h2 class="h2-section-4">Nadpis</h2>
+                    <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Voluptas non repellendus animi 
+                        eveniet eligendi rerum, doloribus libero nulla maiores autem 
+                        minus ipsa 
+                        incidunt et 
+                        <a href="#" class="section-4-link">...více zde</a>
+                    </p>
+                    </div>
+                </main>
+            </div>
+
+
+
+            <div class="container-section-4-big">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-leftBig" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover">
+                    <h2 class="h2-section-4">Nadpis</h2>
+                    <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Voluptas non repellendus animi 
+                        eveniet eligendi rerum, doloribus libero nulla maiores autem 
+                        minus ipsa 
+                        incidunt et 
+                        <a href="#" class="section-4-link">...více zde</a>
+                    </p>
+                    </div>
+                </main>
+            </div>
+
+        </div>
+
+
+        <div class="right small">
+            <div class="container-section-4-small">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-rightSmall" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover-right">
+                        <h2 class="h2-section-4">Nadpis</h2>
+                        <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Voluptas non repellendus animi 
+                            <a href="#" class="section-4-link">...více zde</a>
+                        </p>
+                        </div>
+                </main>
+            </div>
+
+            <div class="container-section-4-small">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-rightSmall" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover-right">
+                        <h2 class="h2-section-4">Nadpis</h2>
+                        <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Voluptas non repellendus animi 
+                            <a href="#" class="section-4-link">...více zde</a>
+                        </p>
+                        </div>
+                </main>
+            </div>
+
+            <div class="container-section-4-small">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-rightSmall" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover-right">
+                        <h2 class="h2-section-4">Nadpis</h2>
+                        <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Voluptas non repellendus animi 
+                            <a href="#" class="section-4-link">...více zde</a>
+                        </p>
+                        </div>
+                </main>
+            </div>
+
+
+            <div class="container-section-4-small">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-rightSmall" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover-right">
+                        <h2 class="h2-section-4">Nadpis</h2>
+                        <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Voluptas non repellendus animi 
+                            <a href="#" class="section-4-link">...více zde</a>
+                        </p>
+                        </div>
+                </main>
+            </div>
+
+
+            <div class="container-section-4-small">
+                <aside class="section-4__aside">
+                    <img class="section-4__aside__img-rightSmall" src="https://cdn.pixabay.com/photo/2012/11/28/09/08/mars-67522_960_720.jpg" alt="article Image">
+                </aside>
+                <main class="section-4__main">
+                    <div class= "section-4__main__text-cover-right">
+                        <h2 class="h2-section-4">Nadpis</h2>
+                        <p class="p-section-4">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Voluptas non repellendus animi 
+                            <a href="#" class="section-4-link">...více zde</a>
+                        </p>
+                        </div>
+                </main>
+            </div>
+        </div>
+    
         
-    </body>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
-
-
